@@ -1,0 +1,85 @@
+@font-face {
+  font-family: Tungsten-Bold;
+  src: url(../fonts/Tungsten-Bold.ttf);
+  }
+  @font-face {
+  font-family: DINNextW1G;
+  src: url(../fonts/DINNextW1G-Regular.ttf);
+  }
+  @font-face {
+  font-family: Rubik-Medium;
+  src: url(../fonts/Rubik-Medium.ttf);
+  }
+  @font-face {
+  font-family: Rubik-Bold;
+  src: url(../fonts/Rubik-Bold.ttf);
+  }
+body{
+  background: url('../walp.png');
+  background-size: cover;
+}
+.container{
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+.left{
+  color: white;   
+  height: 100vh;
+}
+.right{
+  font-family: DINNextW1G;
+  color: white; 
+  height: 100vh;  
+  display: block;     
+}
+li{
+  display: inline-grid;
+  cursor: pointer;
+  padding: 20px;
+  font-family: DINNextW1G;
+}
+img{
+    width: 200px;
+    height: auto;
+}
+h1{
+  text-align: center;
+  font-family: Tungsten-Bold;
+  font-size: 70px;
+}
+#gun-img{
+  object-fit: cover;
+  position: absolute;
+  width: 500px;
+  height: auto;
+}
+.gun-info{
+  margin-top: 1in;
+}
+h4{
+  cursor: pointer;
+}
+#skin-list{
+  position: absolute;
+  height: 200px;
+  width: 500px;
+  overflow: auto;
+}
+#gun-stats{
+    top: 5in;
+}
+#gun-name{
+  padding-top: 20px;
+}
+#gun-holder{
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a{
+  font-family: DINNextW1G;
+}
+#gun-list{
+  
+}
